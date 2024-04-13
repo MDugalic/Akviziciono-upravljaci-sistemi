@@ -1,0 +1,11 @@
+STA 98
+TCP 52596
+
+
+DO_REG  2 4300  0  0      1     0  DO  @Vrata 2 
+DO_REG  4 4302  0  0      1     0  DO  @Prozori 2
+IN_REG  1 2700  0  0   4095  2000  AI  @JacinaStruje 4
+IN_REG  1 2701  0  0   4095  2000  AI  @SenzorTemperature 4
+IN_REG  1 2702  0  0   4095  2000  AI  @SenzorPritiska 4
+HR_INT  1 4500  0  0   4095  1200  AO  @Bojler 4
+HR_INT  1 4501  0  0   4095  1200  AO  @KlimaUredjaj 4
